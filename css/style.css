@@ -1,0 +1,144 @@
+body{
+ /*background-color: rgb(255, 130, 58);*/
+ font-family: 'Roboto', sans-serif;
+ margin-top: 0px;
+}
+#topbar{
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  min-height: 60px;
+  background-color: rgb(255,255,255);
+}
+#topbar p{
+  font-size: 3em;
+  font-weight: 200;
+  margin-top: 30px;
+}
+#sidebar{
+  background-color: rgb(255,255,255);
+  width: 300px;
+  height: 90vh;
+  padding: none;
+  float: left;
+  position: fixed;
+  z-index: 1;
+}
+
+#logo{
+  padding: 15px;
+  margin: 10px 0px 10px 50px;
+  overflow: hidden;
+}
+
+#logo img{
+  width: 120px;
+  height: 120px;
+}
+
+#name{
+  padding: 5px;
+  overflow: auto;
+  margin: 10px 0px 10px 30px;
+}
+#name a{
+  color: rgb(0,0,0);
+  font-size: 2.3em;
+  transition: 0.2s;
+  text-decoration:none;
+  font-weight: 200;
+}
+#name a:hover{
+  color: rgb(66, 134, 244);
+  transition: .2s;
+}
+
+#menu ul{
+
+  list-style: none;
+  padding-top: 50px;
+}
+
+#menu li{
+  margin:auto;
+  margin-top: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 1em;
+  font-weight: 300;
+  width: 150px;
+  transition-duration: .2s;
+  color: rgb(44, 45, 48);
+}
+
+#menu li:hover{
+  background-color:rgb(66, 134, 244);
+  transition-duration: .2s;
+  color: rgb(255, 255, 255);
+}
+
+#main{
+  margin: 0px 100px 0px 350px;
+  width: auto;
+  height:auto;
+  background-color: rgb(255,255,255);
+  padding-top: 0px;
+}
+
+#main h1, #main h2,#main h3{
+font-weight: 300;
+}
+#main h1,#main h2{
+  padding: 5px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 130, 58);
+  box-shadow: 1px 5px 6px rgba(0, 0, 0, 0.3);
+}
+#aboutMe p{
+  padding: 20px;
+  background-color:rgb(45, 56, 135);
+  color: rgb(255, 255, 255);
+  font-size: 1.2em;
+}
+#main a{
+  text-decoration: none;
+  color: inherit;
+  transition-duration: .2s;
+}
+#main img{
+  width: auto;
+  max-width: 1000px;
+  height: 400px;
+  display: block;
+}
+#plan{
+  width: 300px;
+  height: 400px;
+  margin-left: 0px;
+}
+#aboutMe a:hover{
+  /*text-shadow: 1px 2px 3px rgba(255,255, 255, 0.6);*/
+  color:rgb(255, 130, 58);
+  transition-duration: .1s;
+}
+
+#main h3{
+  padding: 0px 100px 20px 20px;
+  text-align:justify;
+}
+#social h3{
+  font-size: 1.5em;
+  overflow: auto;
+}
+
+#social a:hover{
+  font-size: 1.01em;
+  transition-duration: .2s;
+  color: rgb(66, 134, 244);
+}
+
+#myProjects, #experience, #aboutMe, #social{
+  padding-top: 160px;
+  margin: 0px 0px 140px 0px;
+}
